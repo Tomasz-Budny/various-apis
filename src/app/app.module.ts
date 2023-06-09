@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 import { MemeViewComponent } from './views/meme-view.component';
+import { YodaComponent } from './views/yoda.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MemeViewComponent } from './views/meme-view.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MemeViewComponent
+    MemeViewComponent,
+    YodaComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
