@@ -16,17 +16,7 @@ import { Observable } from 'rxjs';
     <span>Autor: {{ vm.author }}</span>
   </div>
   `,
-  styles: [`
-    .meme-container {
-      display: flex;
-      flex-direction: column;
-
-      img {
-        width: 300px;
-        height: 300px
-      }
-    }
-  `]
+  styleUrls: [`../../assets/styles/meme.scss`]
 })
 export class MemeViewComponent {
 
