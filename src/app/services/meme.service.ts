@@ -14,6 +14,10 @@ export class MemeService {
   ) {}
 
   getRandomMeme(subreddit: string = '') {
+    if(subreddit != '') {
+      subreddit = '/' + subreddit;
+    }
+
     return this.http.get<MemeModel>(this.URL + subreddit);
   }
 }

@@ -15,12 +15,24 @@ import { Observable } from 'rxjs';
     <img [src]="vm.url" alt="">
     <span>Autor: {{ vm.author }}</span>
   </div>
+  <div class="choose-meme">
+    <button
+      *ngFor="let category of categories" 
+      (click)="getMemeOfSpecifficCategory(category.subreddit)">
+      {{ category.name }}
+    </button>
+  </div>
   `,
   styleUrls: [`../../assets/styles/meme.scss`]
 })
 export class MemeViewComponent {
 
   meme$: Observable<MemeModel>
+  categories = [
+    {name: 'Losowy', subreddit: ''},
+    {name: 'Polityczny', subreddit: 'politicalmemes'},
+    {name: 'Wholesome', subreddit: 'wholesomememes'}
+  ]
 
   constructor(
     public memeService: MemeService
@@ -28,5 +40,9 @@ export class MemeViewComponent {
 
   ngOnInit() {
     this.meme$ = this.memeService.getRandomMeme()
+  }
+
+  getMemeOfSpecifficCategory(category: string) {
+    this.meme$ = this.memeService.getRandomMeme(category);
   }
 }
