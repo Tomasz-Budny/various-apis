@@ -24,6 +24,6 @@ export class YodaComponent {
   ) {}
 
   ngOnInit() {
-    this.yodaText$ = this.yodaService.getTextTranslatedByYoda('This night is very beatuful!');
+    // this.yodaText$ = this.yodaService.getTextTranslatedByYoda('This night is very beatuful!');
   }
 }
