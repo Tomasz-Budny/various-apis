@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { MemeViewComponent } from './views/meme-view.component';
 import { YodaComponent } from './views/yoda.component';
 import { WelcomeViewComponent } from './views/welcome-view/welcome-view.component';
+import { NavbarComponent } from './views/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WelcomeViewComponent } from './views/welcome-view/welcome-view.componen
     HttpClientModule,
     MemeViewComponent,
     YodaComponent,
-    WelcomeViewComponent
+    WelcomeViewComponent,
+    NavbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

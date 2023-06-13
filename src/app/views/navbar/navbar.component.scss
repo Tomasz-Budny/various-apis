@@ -1,0 +1,17 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+  font-family: 'Sofia Pro';
+}
+
+.links {
+  .nav-link {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}
