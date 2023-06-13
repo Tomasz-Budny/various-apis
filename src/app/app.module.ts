@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 import { MemeViewComponent } from './views/meme-view.component';
 import { YodaComponent } from './views/yoda.component';
+import { WelcomeViewComponent } from './views/welcome-view/welcome-view.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { YodaComponent } from './views/yoda.component';
     AppRoutingModule,
     HttpClientModule,
     MemeViewComponent,
-    YodaComponent
+    YodaComponent,
+    WelcomeViewComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

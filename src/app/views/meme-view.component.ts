@@ -29,9 +29,9 @@ export class MemeViewComponent {
 
   meme$: Observable<MemeModel>
   categories = [
-    {name: 'Losowy', subreddit: ''},
+    {name: 'Losowy', subreddit: 'memes'},
     {name: 'Polityczny', subreddit: 'politicalmemes'},
-    {name: 'Wholesome', subreddit: 'wholesomememes'}
+    {name: 'Wholesome', subreddit: 'videogamememes'}
   ]
 
   constructor(
