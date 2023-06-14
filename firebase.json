@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "various-apis",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
