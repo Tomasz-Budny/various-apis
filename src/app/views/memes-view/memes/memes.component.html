@@ -1,1 +1,29 @@
-<p>memes works!</p>
+<div class="memes-content">
+  <div class="meme" *ngIf="meme$ | async as vm; else loading">
+    <div 
+      class="meme-image">
+      <img [src]="vm.url" alt="">
+    </div>
+    <div class="author-and-subreddit">
+      <span class="author">
+        Autor: {{ vm.author }}
+      </span>
+    </div>
+  </div>
+  <ng-template #loading>
+    <div class="meme loading">
+      ...loading
+    </div>
+  </ng-template>
+  <div class="choose-meme">
+    <h3>Wybierz Subreddit: </h3>
+    <div class="categories">
+      <span
+      *ngFor="let category of categories" 
+      (click)="getMemeOfSpecifficCategory(category)"
+      class="category-btn">
+      /{{ category }}
+    </span>
+    </div>
+  </div>
+</div>
