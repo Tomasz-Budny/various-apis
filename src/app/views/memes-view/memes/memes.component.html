@@ -5,7 +5,7 @@
       <img [src]="vm.url" alt="">
     </div>
     <div class="author-and-subreddit">
-      <span class="author">
+      <span i18n class="author">
         Autor: {{ vm.author }}
       </span>
     </div>
@@ -16,7 +16,7 @@
     </div>
   </ng-template>
   <div class="choose-meme">
-    <h3>Wybierz Subreddit: </h3>
+    <h3 i18n >Wybierz Subreddit: </h3>
     <div class="categories">
       <span
       *ngFor="let category of categories" 
