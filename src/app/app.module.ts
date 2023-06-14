@@ -9,6 +9,7 @@ import { YodaComponent } from './views/yoda.component';
 import { WelcomeViewComponent } from './views/welcome-view/welcome-view.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { MemesViewComponent } from './views/memes-view/memes-view.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MemesViewComponent } from './views/memes-view/memes-view.component';
     YodaComponent,
     WelcomeViewComponent,
     NavbarComponent,
-    MemesViewComponent
+    MemesViewComponent,
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

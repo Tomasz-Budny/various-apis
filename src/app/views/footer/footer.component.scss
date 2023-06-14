@@ -1,0 +1,20 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 20px 0px;
+  font-size: 25px;
+
+  * {
+    text-align: center;
+  }
+}
+
+.middle-element {
+  margin: 0px 8px;
+}
+
+.link:hover {
+  cursor: pointer;
+
+  color: var(--color-highlight);
+}
