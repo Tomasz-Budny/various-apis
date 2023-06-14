@@ -1,0 +1,44 @@
+{
+  "hosting": [
+    {
+      "target": "various-apis",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ],
+  "headers": [
+    {
+      "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=31536000,immutable"
+        }
+      ]
+    },
+    {
+      "source": "/@(ngsw-worker.js|ngsw.json)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    }
+  ],
+
+  "i18n": {
+    "root": "/"
+  },
+
+  "rewrites": [
+    {
+      "source": "/en/**",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/pl/**",
+      "destination": "/pl/index.html"
+    }
+  ]
+}

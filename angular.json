@@ -5,9 +5,15 @@
   "projects": {
     "various-apis": {
       "i18n": {
-        "sourceLocale": "pl",
+        "sourceLocale": {
+          "code": "pl",
+          "baseHref": ""
+        },
         "locales": {
-          "en-US": "src/locale/messages.en.xlf"
+          "en": {
+            "translation": "src/locale/messages.en.xlf",
+            "baseHref": ""
+          }
         }
       },
       "projectType": "application",
@@ -23,9 +29,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": [
-              "en-US"
-            ],
+            "localize": true,
             "outputPath": "dist/various-apis",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -106,6 +110,13 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "various-apis:build:production"
           }
         }
       }

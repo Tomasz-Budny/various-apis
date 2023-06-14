@@ -10,6 +10,7 @@ import { WelcomeViewComponent } from './views/welcome-view/welcome-view.componen
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { MemesViewComponent } from './views/memes-view/memes-view.component';
 import { FooterComponent } from './views/footer/footer.component';
+import {CookieService} from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { FooterComponent } from './views/footer/footer.component';
     MemesViewComponent,
     FooterComponent
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

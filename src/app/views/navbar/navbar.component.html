@@ -1,10 +1,10 @@
 <nav>
-  <div class="nav-logo">
+  <div class="nav-logo" (click)="changeCulture('pl')">
     <img src="../../../assets/placeholders/logo-placeholder.png" alt="logo placeholder">
   </div>
   <div class="links">
     <span class="nav-link">Memy</span>
     <span class="nav-link">Yoda</span>
-    <span class="nav-link">Anime</span>
+    <span class="nav-link" (click)="changeCulture('en')">Anime</span>
   </div>
 </nav>
