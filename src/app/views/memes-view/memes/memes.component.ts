@@ -16,9 +16,10 @@ export class MemesComponent {
   meme$: Observable<MemeModel>
   categories = [
     'videogamememes', 'politicalmemes', 'memes',
-    'videogamememes', 'politicalmemes', 'memes',
-    'videogamememes', 'politicalmemes', 'memes',
-    'videogamememes', 'politicalmemes', 'memes',
+    'sciencememes', 'StudyMemes', 'dunkmemes',
+    'videogamememes', 'EuropeMemes', 'PolishMemes',
+    'YouTubeMemes', 'politicalmemes', 'marvelmemes',
+    'Animemes', 'spidermanmemes', 'WitcherMemes'
   ];
 
   constructor(
