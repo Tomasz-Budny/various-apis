@@ -12,8 +12,32 @@ body {
   margin: 0px;
   background-color: rgb(18,24,27);
   color: #ffff;
+  font-family: 'Warsaw Gothic', cursive;
 }
 
 * {
   margin: 0px;
+}
+
+.text-highlight {
+  color: var(--color-highlight);
+}
+
+.section {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: calc(30px + 60px) 20px 30px 20px;
+
+  .section-title {
+    font-size: 40px;
+  }
+  .section-desc {
+    font-size: 25px;
+  }
+}
+
+// SCROLLBAR
+
+::-webkit-scrollbar {
+  width: 0px;
 }

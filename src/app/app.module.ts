@@ -8,6 +8,7 @@ import { MemeViewComponent } from './views/meme-view.component';
 import { YodaComponent } from './views/yoda.component';
 import { WelcomeViewComponent } from './views/welcome-view/welcome-view.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
+import { MemesViewComponent } from './views/memes-view/memes-view.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './views/navbar/navbar.component';
     MemeViewComponent,
     YodaComponent,
     WelcomeViewComponent,
-    NavbarComponent
+    NavbarComponent,
+    MemesViewComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
