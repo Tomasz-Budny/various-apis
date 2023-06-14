@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "memes": "memes"
+  },
+
+  "welcome": {
+    "title": "What is goin on with this ",
+    "title-highlight": "site?",
+    "content": {
+      "1": "THIS IS A COLLECTION OF DIFFERENT APIS, SOMETIMES FUNNY, SOMETIMES A LITTLE MORE USEFUL",
+      "2": "SCROLL NEXT",
+      "3": "AND SEE WHAT'S WAITING FOR YOU :D!"
+    }
+  }
+}

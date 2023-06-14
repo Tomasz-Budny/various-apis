@@ -23,8 +23,11 @@ nav {
 }
 
 .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   .nav-link {
-    margin-right: 10px;
     font-size: 18px;
   }
 
@@ -33,4 +36,9 @@ nav {
 
     color: var(--color-highlight);
   }
+}
+
+svg {
+  width: 30px;
+  height: 30px;
 }

@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "memes": "memy"
+  },
+
+  "welcome": {
+    "title": "O CO CHODZI Z TĄ ",
+    "title-highlight": "STRONKĄ?",
+    "content": {
+      "1": "JEST TO ZBIÓR RÓŻNYCH API, CZASAMI ŚMIESZNYCH CZASAMI NIECO BARDZIEJ UŻYTECZNYCH",
+      "2": "SCROLLUJ DALEJ",
+      "3": "I ZOBACZ CO NA CIEBIE CZEKA :D!"
+    }
+  }
+}
+

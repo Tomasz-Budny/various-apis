@@ -10,6 +10,8 @@ import { WelcomeViewComponent } from './views/welcome-view/welcome-view.componen
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { MemesViewComponent } from './views/memes-view/memes-view.component';
 import { FooterComponent } from './views/footer/footer.component';
+import { TranslocoRootModule } from './transloco-root.module';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FooterComponent } from './views/footer/footer.component';
     WelcomeViewComponent,
     NavbarComponent,
     MemesViewComponent,
-    FooterComponent
+    FooterComponent,
+    TranslocoRootModule,
+    AngularSvgIconModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
