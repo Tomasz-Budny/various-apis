@@ -29,7 +29,7 @@
       <div class="yoda-text">
         <ng-container *ngIf="yodaText$ | async as vm; else loading">
           <ngx-typed-js [strings]="[vm]" [typeSpeed]="40">
-             <span class="typing"></span>
+            „<span class="typing"></span>”
           </ngx-typed-js>
         </ng-container> 
         <ng-template #loading>
