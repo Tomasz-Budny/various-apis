@@ -19,6 +19,14 @@
     "content": "This section is responsible for downloading random memes from different categories. The source of the funny pictures are the respective reddit groups. To upload a new image, press one of the highlighted categories. Remember that memes are completely random, so they don't all have to be funny, and some may be controversial."
   },
 
+  "yoda": {
+    "desc": "In this section, you can replace any text with one spoken by Master Yoda and feel like in the legendary Star Wars. For the translation to work, you must enter the text in English.",
+    "instruction": "Type in what Master Yoda has to say!",
+    "submit": "Submit",
+    "error": "The length of the text cannot exceed 250 characters!",
+    "quote": "„Patience you must have, my young Padawan.”"
+  },
+
   "footer": {
     "helpful-links": "Helpful links",
     "memes": "memes"

@@ -19,6 +19,14 @@
     "content": "Ta sekcja odpowiedzialna jest za pobieranie losowych memów z różnych kategorii. Źródłem śmiesznych obrazków są odpowiednie redditowe grupy. Aby załadować nowy obrazek naciśnij jedną z wyróżnionych kategorii. Pamiętaj, że memy są całkowicie losowe, więc nie wszystkie muszą być śmieszne, a mogą się trafić i takie kontrowersyjne."
   },
 
+  "yoda": {
+    "desc": "W tej sekcji możesz zamienić dowolny tekst na taki wypowiedziany przez mistrza Yodę i poczuć się jak w legendarnych Star Wars! Aby tłumaczenie zadziałało musisz wpisać tekst w języku angielskim.",
+    "instruction": "Wpisz co ma powiedzieć mistrz Yoda!",
+    "submit": "wyślij",
+    "error": "Długość tekstu nie może być większa niż 250 znaków!",
+    "quote": "„Kiedy patrzysz na ciemną stronę, musisz być ostrożny… ponieważ ciemna strona też patrzy na ciebie.”"
+  },
+
   "footer": {
     "helpful-links": "Pomocne linki",
     "memes": "memy"

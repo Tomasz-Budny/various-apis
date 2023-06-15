@@ -1,6 +1,6 @@
 <div class="yoda-content">
   <div class="translation-form">
-    <h3>Wpisz co ma powiedzieć mistrz Yoda!</h3>
+    <h3>{{ 'yoda.instruction' | transloco }}</h3>
 
     <form [formGroup]="yodaForm" (submit)="onSubmit()">
       <textarea 
@@ -14,11 +14,11 @@
         *ngIf="yodaForm.get('text').touched &&
         yodaForm.get('text').errors?.maxlength as errors">
 
-        Długość tekstu nie może być większa niż 250 znaków!
+        {{ 'yoda.error' | transloco }}
 
       </div>
       <button 
-        type="submit">Wyślij
+        type="submit">{{ 'yoda.submit' | transloco }}
       </button>
     </form>
 
