@@ -14,7 +14,7 @@
   },
 
   "memes": {
-    "author": "Autor",
+    "author": "Author",
     "choose-subreddit": "Choose subreddit",
     "content": "This section is responsible for downloading random memes from different categories. The source of the funny pictures are the respective reddit groups. To upload a new image, press one of the highlighted categories. Remember that memes are completely random, so they don't all have to be funny, and some may be controversial."
   },
