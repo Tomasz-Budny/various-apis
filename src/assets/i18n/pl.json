@@ -11,6 +11,17 @@
       "2": "SCROLLUJ DALEJ",
       "3": "I ZOBACZ CO NA CIEBIE CZEKA :D!"
     }
+  },
+
+  "memes": {
+    "author": "Autor",
+    "choose-subreddit": "Wybierz subreddit",
+    "content": "Ta sekcja odpowiedzialna jest za pobieranie losowych memów z różnych kategorii. Źródłem śmiesznych obrazków są odpowiednie redditowe grupy. Aby załadować nowy obrazek naciśnij jedną z wyróżnionych kategorii. Pamiętaj, że memy są całkowicie losowe, więc nie wszystkie muszą być śmieszne, a mogą się trafić i takie kontrowersyjne."
+  },
+
+  "footer": {
+    "helpful-links": "Pomocne linki",
+    "memes": "memy"
   }
 }
 
