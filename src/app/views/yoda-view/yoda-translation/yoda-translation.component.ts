@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { YodaService } from 'src/app/services/yoda.service';
 import { Observable, map, of } from 'rxjs';
+import { NgxTypedJsModule } from 'ngx-typed-js';
+import { YodaFakeService } from 'src/app/services/yoda-fake.service';
 
 @Component({
   selector: 'yoda-translation',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, NgxTypedJsModule],
   templateUrl: './yoda-translation.component.html',
   styleUrls: ['./yoda-translation.component.scss']
 })
@@ -24,16 +26,11 @@ export class YodaTranslationComponent {
 
   constructor(
     private fb: FormBuilder,
-    private yodaService: YodaService
+    //private yodaService: YodaService
+    private yodaService: YodaFakeService
   ) {}
 
-  ngOnInit() {
-    console.log(this.yodaForm.get('text'));
-  }
-
   onSubmit() {
-    console.log(this.yodaForm.get('text'));
-
     if(this.yodaForm.valid) {
       const text = this.yodaForm.value.text;
       this.yodaText$ = this.yodaService.getTextTranslatedByYoda(text).pipe(map((text: any) => text.contents.translated));

@@ -28,10 +28,18 @@
     <div class="relative-wrap">
       <div class="yoda-text">
         <ng-container *ngIf="yodaText$ | async as vm; else loading">
-          {{ vm }}
+          <ngx-typed-js [strings]="[vm]" [typeSpeed]="40">
+             <span class="typing"></span>
+          </ngx-typed-js>
         </ng-container> 
         <ng-template #loading>
-          ...
+          <ngx-typed-js 
+            [strings]="['...']" 
+            [typeSpeed]="30" 
+            [loop]="true"
+            class="loading">
+            <span class="typing"></span>
+         </ngx-typed-js>
         </ng-template>
     </div>
     <img src="../../../assets/placeholders/yoda-with-cloud.png" alt="">
