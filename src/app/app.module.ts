@@ -12,6 +12,7 @@ import { MemesViewComponent } from './views/memes-view/memes-view.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { TranslocoRootModule } from './transloco-root.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { YodaViewComponent } from './views/yoda-view/yoda-view.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     WelcomeViewComponent,
     NavbarComponent,
     MemesViewComponent,
+    YodaViewComponent,
     FooterComponent,
     TranslocoRootModule,
     AngularSvgIconModule.forRoot()

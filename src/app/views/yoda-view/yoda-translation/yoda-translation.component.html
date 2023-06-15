@@ -1,0 +1,31 @@
+<div class="yoda-content">
+  <div class="translation-form">
+    <h3>Wpisz co ma powiedzieć mistrz Yoda!</h3>
+
+    <form [formGroup]="yodaForm" (submit)="onSubmit()">
+      <textarea 
+        name="Text1" 
+        cols="40" 
+        rows="5"
+        formControlName="text">
+      </textarea>
+      <button 
+        type="submit">Wyślij
+      </button>
+    </form>
+
+  </div>
+
+  <div class="yoda">
+    <div class="relative-wrap">
+      <div class="yoda-text">
+        <ng-container *ngIf="yodaText$ | async as vm; else loading">
+          {{ vm }}
+        </ng-container> 
+        <ng-template #loading>
+          ...
+        </ng-template>
+    </div>
+    <img src="../../../assets/placeholders/yoda-with-cloud.png" alt="">
+  </div>
+</div>
