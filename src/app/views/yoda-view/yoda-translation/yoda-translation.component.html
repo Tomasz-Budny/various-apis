@@ -9,6 +9,14 @@
         rows="5"
         formControlName="text">
       </textarea>
+      <div 
+        class="errors"
+        *ngIf="yodaForm.get('text').touched &&
+        yodaForm.get('text').errors?.maxlength as errors">
+
+        Długość tekstu nie może być większa niż 250 znaków!
+
+      </div>
       <button 
         type="submit">Wyślij
       </button>
@@ -29,3 +37,4 @@
     <img src="../../../assets/placeholders/yoda-with-cloud.png" alt="">
   </div>
 </div>
+

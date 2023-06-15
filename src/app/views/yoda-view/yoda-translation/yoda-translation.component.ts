@@ -16,7 +16,7 @@ export class YodaTranslationComponent {
   yodaForm = this.fb.group({
     text: [null, [
       Validators.required,
-      Validators.maxLength(300)
+      Validators.maxLength(250)
     ]]
   });
 
@@ -27,7 +27,13 @@ export class YodaTranslationComponent {
     private yodaService: YodaService
   ) {}
 
+  ngOnInit() {
+    console.log(this.yodaForm.get('text'));
+  }
+
   onSubmit() {
+    console.log(this.yodaForm.get('text'));
+
     if(this.yodaForm.valid) {
       const text = this.yodaForm.value.text;
       this.yodaText$ = this.yodaService.getTextTranslatedByYoda(text).pipe(map((text: any) => text.contents.translated));
