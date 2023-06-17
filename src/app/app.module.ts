@@ -13,6 +13,7 @@ import { FooterComponent } from './views/footer/footer.component';
 import { TranslocoRootModule } from './transloco-root.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { YodaViewComponent } from './views/yoda-view/yoda-view.component';
+import { CookiePolicyPopUpComponent } from './views/cookie-policy-pop-up/cookie-policy-pop-up.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { YodaViewComponent } from './views/yoda-view/yoda-view.component';
     MemeViewComponent,
     YodaComponent,
     WelcomeViewComponent,
+    CookiePolicyPopUpComponent,
     NavbarComponent,
     MemesViewComponent,
     YodaViewComponent,

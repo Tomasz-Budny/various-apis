@@ -1,3 +1,7 @@
+<cookie-policy-pop-up
+  *ngIf="isCookiePolicyVisible"
+  (close)="setCokkiePolicy($event)">
+</cookie-policy-pop-up>
 <navbar></navbar>
 <div class="views">
   <welcome-view></welcome-view>
