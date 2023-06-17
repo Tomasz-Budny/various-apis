@@ -30,5 +30,12 @@
   "footer": {
     "helpful-links": "Helpful links",
     "memes": "memes"
+  },
+
+  "cookies-policy": {
+    "title": "Dear User,",
+    "message": "Before you click any button, please read this information to the end, it concerns your personal data. By clicking Go to the website you consent to the processing of your personal data regarding your activity on the Internet (e.g. device identifiers, IP address) by us - i.e. Ringier Axel Springer Polska sp. z o.o. (RASP), IAB Trusted Partners and other Trusted Partners for marketing purposes (including automatic ad personalization and measurement), in order to customize the content provided, ensure the proper functioning of social networking site functionalities and for other purposes listed below, as well as consent to sharing PPID by us to Google. A detailed description of the purposes and scope of the processed data can be found here - they include (classification according to IAB Europe), among others: selection of basic advertisements; creating a profile of personalized advertisements; selection of personalized advertisements; creating a personalized content profile; selection of personalized content; advertising performance measurement; content performance measurement; using market research to generate audience feedback; product development and improvement, and special features such as: use of accurate geolocation data and active scanning of device characteristics for identification purposes. Consent is voluntary. You can refuse it or limit its scope by clicking on „Reject”.",
+    "accept": "Accept",
+    "cancel": "Reject"
   }
 }
