@@ -12,9 +12,13 @@
 
 body {
   margin: 0px;
-  background-color: rgb(18,24,27);
   color: #ffff;
+  background-image: url('./assets/placeholders/background.jpg');
   font-family: 'Warsaw Gothic', cursive;
+}
+
+.views {
+  background-color: rgb(18,24,27);
 }
 
 * {
@@ -35,6 +39,8 @@ body {
   }
   .section-desc {
     font-size: 25px;
+    padding: 20px;
+    border-bottom: 2px solid var(--color-highlight);
   }
 }
 

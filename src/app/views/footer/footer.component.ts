@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoRootModule } from 'src/app/transloco-root.module';
+import { ScrollService } from 'src/app/services/scroll.service';
 
 @Component({
   selector: 'app-footer',
@@ -11,4 +12,7 @@ import { TranslocoRootModule } from 'src/app/transloco-root.module';
 })
 export class FooterComponent {
 
+  constructor(
+    public scrollService: ScrollService
+  ) {}
 }

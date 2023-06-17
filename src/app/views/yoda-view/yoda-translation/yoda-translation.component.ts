@@ -29,8 +29,8 @@ export class YodaTranslationComponent {
 
   constructor(
     private fb: FormBuilder,
-    //private yodaService: YodaService
-    private yodaService: YodaFakeService,
+    private yodaService: YodaService,
+    //private yodaService: YodaFakeService,
     private translocoService: TranslocoService
   ) {}
 

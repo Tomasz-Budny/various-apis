@@ -3,9 +3,16 @@
     
     <div>{{ 'footer.helpful-links' | transloco }}</div>
     <div class="links">
-      <span class="link">{{ 'footer.memes' | transloco }}</span>
-      <span class="link middle-element">Yoda</span>
-      <span class="link">Anime</span>
+      <span 
+        class="link"
+        (click)="scrollService.scrollToSection(1)">
+          {{ 'footer.memes' | transloco }}
+      </span>
+      <span 
+        class="link middle-element"
+        (click)="scrollService.scrollToSection(2)">
+          Funny_translation
+      </span>
     </div>
     <div class="copyright">
       Copyright © 2023 Tomasz Budny
