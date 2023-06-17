@@ -1,16 +1,18 @@
 <div class="content">
   <div class="header">
     <h1>
-      O Co chodzi z tą 
+      {{ 'welcome.title' | transloco }} 
       <span class="text-highlight">
-        stronką?
+        {{ 'welcome.title-highlight' | transloco }} 
       </span>
     </h1>
-    <p>Jest to zbiór różnych API, czasami śmiesznych czasami nieco bardziej użytecznych</p>
+    <p>
+      {{ 'welcome.content.1' | transloco }}
+    </p>
     <p>
       <span class="text-highlight">
-        Scrolluj dalej
-      </span> i zobacz co na ciebie czeka :D!
+        {{ 'welcome.content.2' | transloco }}
+      </span> {{ 'welcome.content.3' | transloco }}
     </p>
   </div>
 </div>

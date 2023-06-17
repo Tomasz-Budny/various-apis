@@ -1,10 +1,31 @@
 <nav>
-  <div class="nav-logo">
+  <div 
+    class="nav-logo"
+    (click)="scrollService.scrollToSection(0)">
     <img src="../../../assets/placeholders/logo-placeholder.png" alt="logo placeholder">
   </div>
   <div class="links">
-    <span class="nav-link">Memy</span>
-    <span class="nav-link">Yoda</span>
-    <span class="nav-link">Anime</span>
+    <span 
+      class="nav-link"
+      (click)="scrollService.scrollToSection(1)">
+        {{ 'navbar.memes' | transloco }}
+    </span>
+    <span 
+      class="nav-link"
+      (click)="scrollService.scrollToSection(2)">
+        Funny_translation
+      </span>
+    <svg-icon 
+      (click)="setLang('pl')"
+      class="nav-icon" 
+      [applyClass]="true" 
+      name="pl">
+    </svg-icon>
+    <svg-icon 
+      (click)="setLang('en')"
+      class="nav-icon" 
+      [applyClass]="true" 
+      name="us">
+    </svg-icon>
   </div>
 </nav>

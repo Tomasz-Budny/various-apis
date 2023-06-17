@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "memes": "memy"
+  },
+
+  "welcome": {
+    "title": "O CO CHODZI Z TĄ ",
+    "title-highlight": "STRONKĄ?",
+    "content": {
+      "1": "JEST TO ZBIÓR RÓŻNYCH API, CZASAMI ŚMIESZNYCH CZASAMI NIECO BARDZIEJ UŻYTECZNYCH",
+      "2": "SCROLLUJ DALEJ",
+      "3": "I ZOBACZ CO NA CIEBIE CZEKA :D!"
+    }
+  },
+
+  "memes": {
+    "author": "Autor",
+    "choose-subreddit": "Wybierz subreddit",
+    "content": "Ta sekcja odpowiedzialna jest za pobieranie losowych memów z różnych kategorii. Źródłem śmiesznych obrazków są odpowiednie redditowe grupy. Aby załadować nowy obrazek naciśnij jedną z wyróżnionych kategorii. Pamiętaj, że memy są całkowicie losowe, więc nie wszystkie muszą być śmieszne, a mogą się trafić i takie kontrowersyjne."
+  },
+
+  "yoda": {
+    "desc": "W tej sekcji możesz zamienić dowolny tekst na taki wypowiedziany przez mistrza Yodę i poczuć się jak w legendarnych Star Wars! Aby tłumaczenie zadziałało musisz wpisać tekst w języku angielskim.",
+    "instruction": "Wpisz co ma powiedzieć mistrz Yoda!",
+    "submit": "wyślij",
+    "error": "Długość tekstu nie może być większa niż 250 znaków!",
+    "quote": "Kiedy patrzysz na ciemną stronę, musisz być ostrożny… ponieważ ciemna strona też patrzy na ciebie."
+  },
+
+  "footer": {
+    "helpful-links": "Pomocne linki",
+    "memes": "memy"
+  },
+
+  "cookies-policy": {
+    "title": "Szanowny Użytkowniku,",
+    "message": "Zanim klikniesz którykolwiek przycisk prosimy o przeczytanie do końca tej informacji dotyczy ona Twoich danych osobowych. Klikając „Przejdź do serwisu” udzielasz zgody na przetwarzanie Twoich danych osobowych dotyczących Twojej aktywności w Internecie (np. identyfikatory urządzenia, adres IP) przez nas - czyli Ringier Axel Springer Polska sp. z o.o. (RASP), Zaufanych Partnerów IAB i innych Zaufanych Partnerów w celach marketingowych (w tym automatycznej personalizacji reklam i dokonywania pomiarów), w celu dostosowania dostarczanych treści, zapewnienia prawidłowego działania funkcjonalności z serwisów społecznościowych oraz w pozostałych celach podanych poniżej, a także zgody na udostępnianie przez nas identyfikatora PPID do Google. Szczegółowy opis celów i zakresu przetwarzanych danych znajdziesz tutaj - obejmują one (klasyfikacja wg IAB Europe) m.in.: wybór podstawowych reklam; tworzenie profilu spersonalizowanych reklam; wybór spersonalizowanych reklam; tworzenia profilu spersonalizowanych treści; wybór spersonalizowanych treści; pomiar wydajności reklam; pomiar wydajności treści; stosowanie badań rynkowych w celu generowania opinii odbiorców; opracowywanie i ulepszanie produktów oraz funkcje specjalne takie jak: użycie dokładnych danych geolokalizacyjnych i aktywne skanowanie charakterystyki urządzenia do celów identyfikacji. Zgoda jest dobrowolna. Możesz jej odmówić lub ograniczyć jej zakres klikając w „Odrzuć”.",
+    "accept": "Akceptuję",
+    "cancel": "Odrzuć"
+  }
+}
+

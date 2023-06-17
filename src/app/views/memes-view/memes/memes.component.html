@@ -6,7 +6,7 @@
     </div>
     <div class="author-and-subreddit">
       <span class="author">
-        Autor: {{ vm.author }}
+        {{ 'memes.author' | transloco }}: {{ vm.author }}
       </span>
     </div>
   </div>
@@ -16,7 +16,7 @@
     </div>
   </ng-template>
   <div class="choose-meme">
-    <h3>Wybierz Subreddit: </h3>
+    <h3>{{ 'memes.choose-subreddit' | transloco }}:</h3>
     <div class="categories">
       <span
       *ngFor="let category of categories" 

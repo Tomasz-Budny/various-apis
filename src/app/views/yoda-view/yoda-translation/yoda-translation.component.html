@@ -1,0 +1,48 @@
+<div class="yoda-content">
+  <div class="translation-form">
+    <h3>{{ 'yoda.instruction' | transloco }}</h3>
+
+    <form [formGroup]="yodaForm" (submit)="onSubmit()">
+      <textarea 
+        name="Text1" 
+        cols="40" 
+        rows="5"
+        formControlName="text">
+      </textarea>
+      <div 
+        class="errors"
+        *ngIf="yodaForm.get('text').touched &&
+        yodaForm.get('text').errors?.maxlength as errors">
+
+        {{ 'yoda.error' | transloco }}
+
+      </div>
+      <button 
+        type="submit">{{ 'yoda.submit' | transloco }}
+      </button>
+    </form>
+
+  </div>
+
+  <div class="yoda">
+    <div class="relative-wrap">
+      <div class="yoda-text">
+        <ng-container *ngIf="yodaText$ | async as vm; else loading">
+          <ngx-typed-js [strings]="[vm]" [typeSpeed]="40">
+            „<span class="typing"></span>”
+          </ngx-typed-js>
+        </ng-container> 
+        <ng-template #loading>
+          <ngx-typed-js 
+            [strings]="['...']" 
+            [typeSpeed]="30" 
+            [loop]="true"
+            class="loading">
+            <span class="typing"></span>
+         </ngx-typed-js>
+        </ng-template>
+    </div>
+    <img src="../../../assets/placeholders/yoda-with-cloud.png" alt="">
+  </div>
+</div>
+

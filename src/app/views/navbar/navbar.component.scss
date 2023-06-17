@@ -9,7 +9,8 @@ nav {
   box-sizing: border-box;
 
   font-family: 'Sofia Pro';
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
 }
 
 .nav-logo {
@@ -22,9 +23,16 @@ nav {
   }
 }
 
+.nav-logo:hover {
+  cursor: pointer;
+}
+
 .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   .nav-link {
-    margin-right: 10px;
     font-size: 18px;
   }
 
@@ -33,4 +41,13 @@ nav {
 
     color: var(--color-highlight);
   }
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+svg:hover {
+  cursor: pointer;
 }

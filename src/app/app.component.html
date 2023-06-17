@@ -1,7 +1,11 @@
+<cookie-policy-pop-up
+  *ngIf="isCookiePolicyVisible"
+  (close)="setCokkiePolicy($event)">
+</cookie-policy-pop-up>
 <navbar></navbar>
 <div class="views">
   <welcome-view></welcome-view>
   <memes-view></memes-view>
-  <yoda></yoda>
+  <yoda-view></yoda-view>
   <app-footer></app-footer>
 </div>

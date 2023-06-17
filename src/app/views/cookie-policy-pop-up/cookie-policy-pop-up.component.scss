@@ -1,0 +1,55 @@
+.background {
+  background-color: rgb(34, 40, 43, 0.8);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 499;
+}
+
+.pop-up-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 500;
+
+  background-color: rgb(26, 29, 30);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid var(--color-highlight);
+  width: 60vw;
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+
+    button {
+      padding: 5px 10px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 20px;
+      margin-left: 10px;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+
+    .cancel {
+      background-color: rgb(221, 76, 76);
+    }
+
+    .accept {
+      background-color: var(--color-highlight);
+    }
+
+  }
+}

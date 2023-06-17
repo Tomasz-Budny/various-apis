@@ -1,0 +1,9 @@
+<div class="background"></div>
+<div class="pop-up-content">
+  <h2>{{ 'cookies-policy.title' | transloco }}</h2>
+  <p>{{ 'cookies-policy.message' | transloco }}</p>
+  <div class="controls">
+    <button class="cancel" (click)="close.emit('strict')">{{ 'cookies-policy.cancel' | transloco }}</button>
+    <button class="accept" (click)="close.emit('full')">{{ 'cookies-policy.accept' | transloco }}</button>
+  </div>
+</div>

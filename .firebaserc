@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "varoius-apis": {
+      "hosting": {
+        "various-apis": [
+          "varoius-apis"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "varoius-apis"
+  }
+}

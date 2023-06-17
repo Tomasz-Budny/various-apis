@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { MemeService } from 'src/app/services/meme.service';
 import { Observable } from 'rxjs';
 import { MemeModel } from 'src/app/models/meme.model';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
   selector: 'memes',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoRootModule],
   templateUrl: './memes.component.html',
   styleUrls: ['./memes.component.scss']
 })

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
 @font-face {
   font-family: 'Warsaw Gothic';
   src: url('./assets/fonts/WarsawGothic.otf');
@@ -10,9 +12,13 @@
 
 body {
   margin: 0px;
-  background-color: rgb(18,24,27);
   color: #ffff;
+  background-image: url('./assets/placeholders/background.jpg');
   font-family: 'Warsaw Gothic', cursive;
+}
+
+.views {
+  background-color: rgb(18,24,27);
 }
 
 * {
@@ -33,6 +39,8 @@ body {
   }
   .section-desc {
     font-size: 25px;
+    padding: 20px;
+    border-bottom: 2px solid var(--color-highlight);
   }
 }
 
@@ -41,3 +49,4 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
 }
+
